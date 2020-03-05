@@ -61,6 +61,7 @@
     owner: root
     group: root
     mode:  0600
+  ignore_errors: true
 
 - name: Ensure default include directory exists
   file:
